@@ -25,21 +25,25 @@ header nav ul li a {
     text-transform: uppercase;
     font-size: 24px; 
     padding: 4px; ;
-    transition: all 210ms linear 0.4s;
+    transition: all 250ms linear 0.5s;
 }
+
 .images {
-    display: flex;
-    width: 25%;    
+    display:flex;
+    width: 100%;    
 }
+
 .images article Img {
     height: 220px;
     width: 200px;
     display: flex;
     margin-right: 20px;        
 }
+
 .images article p {
     font-size: small;    
 }
+
 header li,
 header li a {
     display: inline;
@@ -50,6 +54,7 @@ header li a {
     margin-right: 20px;
     padding-left: 15px;   
 }
+
 section h2 {
     margin-left: 0;
     font-size: larger; 
@@ -57,6 +62,37 @@ section h2 {
     box-sizing: border-box;
     display: flex;  
 }
+
 footer .container {
     font-size: small;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 200px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+}
+
+input:focus, textarea:focus {
+    outline-color: #ff0000;
+}
+
+input,
+textarea {
+    color: white;
 }
